@@ -49,14 +49,14 @@ public class Course {
 3. Auto generate getters and setters
   	* Right click on the word Course in the class declaration and select
 		generate -> Getters and Setters
-		* Select all the fields listed and click ok
+	* Select all the fields listed and click ok
 
 4. Create a Class
-		* Click on test
-		* Open java folder
-		* Open com.example.demo
-		* Open Tests.java
-		* Edit it to look like this:
+	* Click on test
+	* Open java folder
+	* Open com.example.demo
+	* Open Tests.java
+	* Edit it to look like this:
 
 ```java
 import org.junit.Test;
