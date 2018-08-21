@@ -31,22 +31,47 @@ public class DemoApplicationTests {
 
   @Test
   public void updateCourse() {
-    Course course2 = new Course("Math102", "Dave Hills",
-            "Here is the " +
-            "description", 3 );
+    Course course2 = new Course();
+    course2.setTitle("Math102");
+    course2.setInstructor("Dave Hills");
+    course2.setDescription("Here is the description");
+    course2.setCredit(3);
     courseRepository.save(course2);
     assertEquals(courseRepository.findAllById(1L).getId(), course2.getId());
   }
 
-
   @Test
   public void deleteCourse() {
-    Course course3 = new Course("Math103", "Alton Hills",
-            "Here is the " +
-            "description", 4 );
+    Course course3 = new Course();
+    course3.setTitle("Math103");
+    course3.setInstructor("Chi Hills");
+    course3.setDescription("Here is the description");
+    course3.setCredit(3);
     courseRepository.save(course3);
     courseRepository.deleteById(1L);
     assertEquals(courseRepository.findById(1L), Optional.empty());
   }
+
+//  @Test
+//  public void deleteCourse() {
+//    Course course3 = new Course("Math103", "Alton Hills",
+//            "Here is the " +
+//                    "description", 4 );
+//    courseRepository.save(course3);
+//    courseRepository.deleteById(1L);
+//    assertEquals(courseRepository.findById(1L), Optional.empty());
+//  }
+
+//  @Test
+//  public void updateCourse() {
+//    Course course2 = new Course("Math102", "Dave Hills",
+//            "Here is the " +
+//            "description", 3 );
+//    courseRepository.save(course2);
+//    assertEquals(courseRepository.findAllById(1L).getId(), course2.getId());
+//  }
+
+
+
 
 }
