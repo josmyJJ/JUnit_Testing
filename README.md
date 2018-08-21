@@ -116,11 +116,11 @@ public class Tests {
 ```
 
 5. Run your test TestSuite
-		* Right click on the Test class and run Tests. After you run the test,
-    the Run tool window will display the test runner tab with the results of
-    your testing session.
+Right click on the Test class and run Tests. After you run the test, 
+the Run tool window will display the test runner tab with the results of
+your testing session.
 
 ## What is Going On
-	Unit testing is breaking down the program into smaller junks of code to
-	 perform a serious of tests.
+Unit testing is breaking down the program into smaller junks of code to
+perform a serious of tests.
 
