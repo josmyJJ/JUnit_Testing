@@ -1,5 +1,4 @@
 # Unit Test
-## Lesson 10 - Complete data life cycle – input, update, list, detail, delete
 
 ## The Walkthrough
 ---------------------------
