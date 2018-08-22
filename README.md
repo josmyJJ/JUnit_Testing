@@ -122,4 +122,10 @@ your testing session.
 ## What is Going On
 Unit testing is breaking down the program into smaller junks of code to
 perform a serious of tests.
+JUnit is a testing framework for Java programming language. Junit gives you support for 
+writing unit tests more easily. 
+@Test annotation is used to mark that a method is a test method. 
+assertEquals() checks that the two objects are equal or not. 
+JUnit library needs to imported to use the @Test and assertTrue methods. 
+
 
